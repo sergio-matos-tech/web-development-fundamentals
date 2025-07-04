@@ -3,7 +3,7 @@ A comprehensive journey through modern web development — inspired by *The Web 
 
 ## 📚 About This Repository
 
-This repository contains mini-projects, exercises, and notes from my studies of JavaScript for web development
+This repository contains mini-projects, exercises, and notes from my studies of JavaScript and its technologies for web development
 Throughout this repo, you’ll find code and resources covering **frontend** technologies.
 
 ---
