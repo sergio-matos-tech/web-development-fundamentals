@@ -1,4 +1,4 @@
-# JavaScript Fundamentals 🚀  
+# Web Development Fundamentals 🚀  
 A comprehensive journey through modern web development — inspired by *The Web Developer Bootcamp 2025* by Colt Steele and Modern JavaScript From The Beginning 2.0 by Brad Traversey.
 
 ## 📚 About This Repository
