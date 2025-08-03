@@ -6,6 +6,11 @@ body {
 #banner {
     width: 100%;
 }
+
+h1 {
+    color: darkgoldenrod;
+}
+
 img.square {
     width: 400px;
     object-fit: cover;
