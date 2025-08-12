@@ -1,6 +1,5 @@
-
-const allLinks = document.querySelectorAll('a')
+const allLinks = document.querySelectorAll("a");
 
 for (const link of allLinks) {
-    link.style.color = 'red'
+  link.style.color = "red";
 }

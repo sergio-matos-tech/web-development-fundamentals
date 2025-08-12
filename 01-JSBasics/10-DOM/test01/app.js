@@ -1,12 +1,9 @@
+const bannerId = document.getElementById("toc");
 
-
-const bannerId = document.getElementById('toc')
-
-const allImages = document.getElementsByTagName('img')
+const allImages = document.getElementsByTagName("img");
 
 for (let img of allImages) {
-    console.log(img.src)
+  console.log(img.src);
 }
 
-const squareClass = document.getElementsByClassName('square')
-
+const squareClass = document.getElementsByClassName("square");

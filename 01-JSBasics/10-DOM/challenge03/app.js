@@ -1,3 +1,1 @@
-
-document.querySelector('span').innerText = 'Disgusting'
-
+document.querySelector("span").innerText = "Disgusting";

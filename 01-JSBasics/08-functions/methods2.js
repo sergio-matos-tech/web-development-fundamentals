@@ -1,12 +1,11 @@
-
 const cat = {
-    name: 'Francisco',
-    color: 'Yellow',
-    breed: 'Scottish Fold',
+  name: "Francisco",
+  color: "Yellow",
+  breed: "Scottish Fold",
 
-    meow: function() {
-        console.log(`${this.breed} ${this.color}`);
-    }
-}
+  meow: function () {
+    console.log(`${this.breed} ${this.color}`);
+  },
+};
 
 console.log(cat.meow());

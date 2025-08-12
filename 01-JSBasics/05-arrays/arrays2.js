@@ -1,16 +1,14 @@
+const planets = ["The Moon", "Venus", "Earth", "Mars", "Jupiter"];
 
-
-const planets = ['The Moon','Venus', 'Earth', 'Mars', 'Jupiter']
-
-console.log(planets)
+console.log(planets);
 
 // removing the first element of the array
-planets.shift()
+planets.shift();
 
 // adding 'Saturn' at the end of the array
-planets.push('Saturn')
+planets.push("Saturn");
 
 // adding 'Mercury' as the first element of the array
-planets.unshift('Mercury')
+planets.unshift("Mercury");
 
-console.log(planets)
+console.log(planets);
