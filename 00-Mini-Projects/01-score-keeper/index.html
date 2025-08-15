@@ -1,17 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Score Keeper</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ping Pong Score Keeper</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1><span id="player-one-score">0</span> to <span id="player-two-score">0</span></h1>
-    <button id="player-one-button">+1 Player One</button>
-    <button id="player-two-button">+1 Player Two</button>
-    <button id="reset">Reset</button>
-    
+  <div class="container mt-5">
+    <div class="card">
+      <!-- Header -->
+      <header class="card-header">
+        <p class="card-header-title is-justify-content-center">
+          Ping Pong Score Keeper
+        </p>
+      </header>
 
-    <script src="app.js"></script>
+      <!-- Content -->
+      <div class="card-content">
+        <div class="content">
+          <h1 class="score-display">
+            <span id="player-one-score">0</span>
+            to
+            <span id="player-two-score">0</span>
+          </h1>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="card-footer is-align-items-center">
+        <div class="card-footer-item">
+          <label for="playto" class="mr-2">Play to:</label>
+          <div class="select">
+            <select id="playto" name="range-winning-score">
+              <option value="3">3</option>
+              <option value="7" selected>7</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <button id="player-one-button" class="card-footer-item button is-primary">
+          +1 Player One
+        </button>
+        <button id="player-two-button" class="card-footer-item button is-link">
+          +1 Player Two
+        </button>
+        <button id="reset" class="card-footer-item button is-danger">
+          Reset
+        </button>
+      </footer>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>

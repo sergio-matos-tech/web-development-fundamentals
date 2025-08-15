@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-header-title {
+  justify-content: center;
+}
+
+
+.score-display {
+  text-align: center;
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+
+.winner {
+  color: green;
+}
+
+.loser {
+  color: red;
+}
