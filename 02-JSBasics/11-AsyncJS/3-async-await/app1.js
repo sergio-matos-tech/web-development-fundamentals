@@ -1,6 +1,6 @@
 
 function delayedColorChange(newColor, delay) {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       document.body.style.backgroundColor = newColor;
       resolve();
