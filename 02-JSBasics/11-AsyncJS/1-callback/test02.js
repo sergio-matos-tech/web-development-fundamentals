@@ -14,7 +14,7 @@ const posts = [
 function getPosts() {
     setTimeout(() => {
         let output = '';
-        posts.forEach((post, index) => {
+        posts.forEach((post) => {
             output += `<h3><strong>${post.title}</strong></h3><p>${post.body}</p>`;
         });
         document.querySelector('.posts').innerHTML = output;
