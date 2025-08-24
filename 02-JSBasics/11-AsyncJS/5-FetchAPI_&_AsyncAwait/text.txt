@@ -1,0 +1,6 @@
+
+15, Maria Carla, Uberlândia, MG
+16, Ana Clara, Ribeirão Preto, SP
+17, Júlia, São José do Rio Preto, SP
+18, Luiza, São José do Rio Preto, SP
+19, Sophia, São José do Rio Preto, SP       

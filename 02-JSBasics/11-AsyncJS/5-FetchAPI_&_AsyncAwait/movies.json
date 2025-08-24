@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "year": 2010,
+        "genre": "Science Fiction"
+    },
+
+    {
+        "title": "The Matrix",
+        "director": "The Wachowskis",
+        "year": 1999,
+        "genre": "Action"
+    },   
+
+    {
+        "title": "Interstellar",
+        "director": "Christopher Nolan",
+        "year": 2014,
+        "genre": "Science Fiction"
+    },
+    
+    {
+        "title": "The Godfather",
+        "director": "Francis Ford Coppola",
+        "year": 1972,
+        "genre": "Crime"
+    }
+]
